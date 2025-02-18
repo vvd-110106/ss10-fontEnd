@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    width: 70%;
+    height: 75px;
+    background-color: rgb(213, 216, 216);
+}
+nav .container {
+    font-size: 20px;
+    font-family: "Dancing Script", serif;
+    font-optical-sizing: auto;
+}
+nav .content a{
+    text-decoration: none;
+    padding: 0px 20px 0 20px;
+    color: rgb(196, 199, 202);
+}
+nav .search button{
+    background-color: #a5a8aa;
+    color: azure;
+    border-radius: 5px;
+    border: 2px solid rgb(240, 232, 232);
+    width: 75px;
+}

@@ -1,0 +1,75 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+}
+body {
+    padding: 10px;
+}
+.container {
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS1Snm0e7iO0xf2f1IiQDr7XsRJb2OTZ1UzNw&s");
+    height: 600px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: flex-end;
+    gap: 15px;
+    position: relative;
+}
+p {
+    font-size: 20px;
+    width: 650px;
+}
+h2 {
+    width: 800px;
+    font-size: 36px;
+
+}
+.container button {
+    width: 100px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    left: 50px;
+    top: 30px;
+}
+section {
+    background-color: rgb(241 243 247);
+}
+.content {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 30px;
+    font-size: 30px;
+    gap: 50px;
+}
+.icon {
+    background-color: rgb(186 184 184);
+    padding: 7px;
+    padding-inline: 20px;
+    border-radius: 4px;
+}
+.icon:hover {
+    background-color: rgb(47, 46, 46);
+}
+.number{
+    color: rgb(161, 157, 157);
+}
+.number:hover{
+    background-color: rgb(47, 46, 46);
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 360px;
+    text-align: center;
+    padding: 3px;
+}
